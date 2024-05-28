@@ -1,0 +1,181 @@
+@mixin navbar-list{
+    color: #000;
+    font-family: $words-font;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+@mixin section-titles{
+    color: #000;
+    font-family: $words-font;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@mixin image-title{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 758px;
+            height: 430px;
+            color: #FFF;
+            font-family: $words-font;
+            font-size: 20px;
+            font-weight: 700;
+}
+
+@mixin card1{
+    .card-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .card-title{
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 362px;
+            height: 186px;
+            padding: 32px 137px 131px 41px;
+            color: #FFF;
+            font-family: $words-font;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .card-info{
+            width: 362px;
+            height: 171;
+            padding: 68px 87px 67px 37px;
+            border-radius: 0px 0px 5px 5px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+
+            p{
+                width:300px ;
+                height:36px ;
+                color: #8A8787;
+                font-family: $words-font;
+                font-size: 12px;
+                font-weight: 700;
+            }
+
+            h2{
+                display: flex;
+                align-items: center;
+                gap: 11px;
+                color: #8A8787;
+                font-family: $words-font;
+                font-size: 12px;
+                font-weight: 700;
+            }
+        }
+    }
+    .card-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .card-title-2{
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 362px;
+            height: 186px;
+            padding: 32px 137px 131px 41px;
+            color: #FFF;
+            font-family: $words-font;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .card-info{
+            width: 362px;
+            height: 171;
+            padding: 68px 87px 67px 37px;
+            border-radius: 0px 0px 5px 5px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+
+            p{
+                width:300px ;
+                height:36px ;
+                color: #8A8787;
+                font-family: $words-font;
+                font-size: 12px;
+                font-weight: 700;
+            }
+
+            h2{
+                display: flex;
+                align-items: center;
+                gap: 11px;
+                color: #8A8787;
+                font-family: $words-font;
+                font-size: 12px;
+                font-weight: 700;
+            }
+        }
+    }
+    .card-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .card-title-3{
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 362px;
+            height: 186px;
+            padding: 32px 137px 131px 41px;
+            color: #FFF;
+            font-family: $words-font;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .card-info{
+            width: 362px;
+            height: 171;
+            padding: 68px 87px 67px 37px;
+            border-radius: 0px 0px 5px 5px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+
+            p{
+                width:300px ;
+                height:36px ;
+                color: #8A8787;
+                font-family: $words-font;
+                font-size: 12px;
+                font-weight: 700;
+            }
+
+            h2{
+                display: flex;
+                align-items: center;
+                gap: 11px;
+                color: #8A8787;
+                font-family: $words-font;
+                font-size: 12px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+@mixin footer-words-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+@mixin footer-words-style{
+    color: #818687;
+    font-family: $words-font;
+    font-size: 12px;
+    font-weight: 700;
+}

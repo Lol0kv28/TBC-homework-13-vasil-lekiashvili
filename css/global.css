@@ -1,0 +1,462 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.mother {
+  width: 1166px;
+  margin: 0 auto;
+}
+.mother nav {
+  background-color: #f1f1f1;
+}
+.mother nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 35px;
+  margin-top: 21px;
+}
+.mother nav ul a {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 11px;
+  font-weight: 700;
+}
+.mother .s-1 h1 {
+  margin-top: 42px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+}
+.mother .s-1 .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 39px;
+  margin-top: 27px;
+}
+.mother .s-1 .cards .card-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mother .s-1 .cards .card-1 .card-title {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 362px;
+  height: 186px;
+  padding: 32px 137px 131px 41px;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+}
+.mother .s-1 .cards .card-1 .card-info {
+  width: 362px;
+  height: 171;
+  padding: 68px 87px 67px 37px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+}
+.mother .s-1 .cards .card-1 .card-info p {
+  width: 300px;
+  height: 36px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+}
+.mother .s-1 .cards .card-1 .card-info h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 11px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+}
+.mother .s-1 .cards .card-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mother .s-1 .cards .card-2 .card-title-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 362px;
+  height: 186px;
+  padding: 32px 137px 131px 41px;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+}
+.mother .s-1 .cards .card-2 .card-info {
+  width: 362px;
+  height: 171;
+  padding: 68px 87px 67px 37px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+}
+.mother .s-1 .cards .card-2 .card-info p {
+  width: 300px;
+  height: 36px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+}
+.mother .s-1 .cards .card-2 .card-info h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 11px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+}
+.mother .s-1 .cards .card-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mother .s-1 .cards .card-3 .card-title-3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 362px;
+  height: 186px;
+  padding: 32px 137px 131px 41px;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+}
+.mother .s-1 .cards .card-3 .card-info {
+  width: 362px;
+  height: 171;
+  padding: 68px 87px 67px 37px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+}
+.mother .s-1 .cards .card-3 .card-info p {
+  width: 300px;
+  height: 36px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+}
+.mother .s-1 .cards .card-3 .card-info h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 11px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+}
+.mother .s-1 .cards .card-title {
+  background-image: url("../images/beach.png");
+}
+.mother .s-1 .cards .card-title-2 {
+  background-image: url("../images/sea.png");
+}
+.mother .s-1 .cards .card-title-3 {
+  background-image: url("../images/ice.png");
+}
+.mother .s-2 h1 {
+  margin-top: 57px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+}
+.mother .s-2 .images {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 44px;
+}
+.mother .s-2 .images .image-title {
+  background-image: url("../images/bridge.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 758px;
+  height: 430px;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+}
+.mother .s-2 .images .images-first-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 42px;
+}
+.mother .s-2 .images .images-second-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 36px;
+  width: 100%;
+  height: 201px;
+  background-color: #243043;
+}
+footer img {
+  margin-right: 137px;
+}
+footer .footer-logo-gap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 294px;
+}
+footer .footer-logo-gap .stay-width-us-gap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 112px;
+}
+footer .footer-logo-gap .stay-width-us-gap h6 {
+  width: 300px;
+  height: 14px;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+}
+footer .footer-logo-gap .stay-width-us-gap .fotter-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+  margin-left: 137px;
+}
+footer .footer-logo-gap .stay-width-us-gap .fotter-info .mygap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 75px;
+}
+footer .footer-logo-gap .stay-width-us-gap .fotter-info .mygap .footer-info-words {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+  color: #818687;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+  width: 52px;
+  height: 114px;
+}
+footer .footer-logo-gap .stay-width-us-gap .fotter-info .mygap .footer-info-words-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+  color: #818687;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+  width: 52px;
+  height: 114px;
+}
+footer .footer-logo-gap .stay-width-us-gap .fotter-info .footer-info-words-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+  color: #818687;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+  width: 52px;
+  height: 114px;
+}/*# sourceMappingURL=global.css.map */
